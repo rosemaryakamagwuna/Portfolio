@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); /*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+/*general styling*/
+*{
+    margin: 0;
+    padding: o;
+    font-family: 'Josefin Sans', sans-serif;
+    }
+.collapse ul{
+   padding-left: 1000px ;
+}
+/*Index Page*/
+.navbar-brand {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+}
+
+.btn {
+    margin-top: 80px
+}
+
+.card-img-overlay {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+}
+.card-img-overlay h1{
+    padding-top: 100px;
+}
+.description img {
+    margin: 300;
+    width: 200px;
+    border-radius: 50%;
+   text-align: center;
+}
+
