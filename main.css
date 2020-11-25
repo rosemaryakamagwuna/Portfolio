@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); /*font import*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
 /*general styling*/
+@media (max-width: 992px) {
+}
 *{
+    
     margin: 0;
     padding: o;
     font-family: 'Josefin Sans', sans-serif;
+    
     }
+    body{
+        background-color: #343a40;
+        color: white;
+    }
+
 .collapse ul{
    padding-left: 1000px ;
 }
@@ -32,9 +41,31 @@
     padding-top: 100px;
 }
 .description img {
-    margin: 300;
+    margin-left: auto ;
+    margin-right: auto;
+    display: block;
     width: 200px;
     border-radius: 50%;
    text-align: center;
 }
-
+.description p {
+text-align: center;
+padding: 50px;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    margin-top: 100px;
+}
+.formcontainer {
+    margin-left: 410px;
+}
+.form-title{
+    padding-top: 40px;
+    text-align: center;
+}
+.col-md-3{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
