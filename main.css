@@ -47,6 +47,7 @@
     width: 200px;
     border-radius: 50%;
    text-align: center;
+   top: 20px;
 }
 .description p {
 text-align: center;
